@@ -7,7 +7,7 @@ The repo contains:
 * `src/` contains implementations of sequential, selective, and random access patterns
 * `src/ssb` contains Implementations of 13 queries of the Star Schema Benchmark
 
-For full details checkout our [paper](http://anilshanbhag.in/static/papers/crystal_sigmod20.pdf)
+For full details checkout our [paper](http://anilshanbhag.in/static/papers/pmem_damon20.pdf)
 
 ```
 @inproceedings{shanbhag2020pmem,
