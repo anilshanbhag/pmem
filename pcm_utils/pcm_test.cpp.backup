@@ -1,0 +1,13 @@
+#include <iostream>
+#include "cpucounters.h"
+using namespace std;
+
+static PCM* pcm_instance;
+
+int main() {
+  PCM* m = PCM::getInstance();
+  unsigned int t = m->getNumCores();
+  cout << t << endl;
+
+  return 0;
+}
