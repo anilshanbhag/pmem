@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOG_DIR=../logs
-LOG=$LOG_DIR/threads_blocked_dram.txt
+LOG=$LOG_DIR/threads_blocked_nvm.txt
 
 rm -f $LOG
 touch $LOG
